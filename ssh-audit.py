@@ -1378,6 +1378,7 @@ class KexDB(object):  # pylint: disable=too-few-public-methods
 			'ecdh-sha2-nistp256': [['5.7,d2013.62,l10.6.0'], [WARN_CURVES_WEAK]],
 			'ecdh-sha2-nistp384': [['5.7,d2013.62'], [WARN_CURVES_WEAK]],
 			'ecdh-sha2-nistp521': [['5.7,d2013.62'], [WARN_CURVES_WEAK]],
+			'curve25519-sha256': [['7.3,d2018.76']],
 			'curve25519-sha256@libssh.org': [['6.5,d2013.62,l10.6.0']],
 			'kexguess2@matt.ucc.asn.au': [['d2013.57']],
 		},
